@@ -85,24 +85,19 @@ Resultados esperados de compilación:
 | Android | `build/app/outputs/flutter-apk/app-debug.apk` |
 | Windows | `build/windows/x64/runner/Release/` completa, incluidos DLL y `data/` |
 
-El estado real de las verificaciones y los bloqueos del entorno están en [verificacion.md](docs/verificacion.md). Los paquetes disponibles de esta sesión se guardan en `../entregables/`.
+El estado real de las verificaciones y los bloqueos del entorno están en [verificacion.md](docs/verificacion.md).
 
 ## Capturas
 
-Las capturas de `docs/capturas/` se realizan sobre la app en Chrome con datos de demostración; estos datos no vienen precargados en la aplicación.
+Las capturas de `Capturas/` se realizan sobre la app en Chrome con datos de demostración; estos datos no vienen precargados en la aplicación.
 
 | Lista | Formulario |
 | --- | --- |
-| ![Lista](docs/capturas/Lista.jpeg) | ![Formulario](docs/capturas/formulario.jpeg) |
+| ![Lista](Capturas/Lista.jpeg) | ![Formulario](Capturas/formulario.jpeg) |
 
 | Detalle | Estadísticas |
 | --- | --- |
-| ![Detalle](docs/capturas/Detalle.jpeg) | ![Estadísticas](docs/capturas/Estadísticas.jpeg) |
+| ![Detalle](Capturas/Detalle.jpeg) | ![Estadísticas](Capturas/Estadísticas.jpeg) |
 
-![Lista vacía](docs/capturas/vacia.jpeg)
+![Lista vacía](Capturas/vacia.jpeg)
 
-## Preparar la entrega académica
-
-El boceto está incluido en `docs/capturas/boceto.png`. Antes de entregar, el alumno debe revisar y comentar con `///` las clases y funciones importantes con sus palabras, completar las reflexiones y las preguntas de la bitácora sin IA y realizar las comprobaciones manuales pendientes. Estos trabajos personales no se presentan como realizados por el alumno.
-
-No se han creado commits porque la carpeta de partida no es un repositorio Git. La bitácora distingue el trabajo técnico de esta sesión del trabajo personal pendiente.
